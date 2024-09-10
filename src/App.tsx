@@ -7,7 +7,7 @@ function App() {
 
   return (
     <> 
-        <Experience />        
+        <Experience title="Bigben" description="I am a bigben"/>
     </>
   )
 }
