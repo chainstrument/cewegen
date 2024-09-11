@@ -1,4 +1,4 @@
-const experience = [{
+export const experiences = [{
     title: "Bigben",
     description: "I am a bigben",
     skills: ["HTML", "CSS", "JavaScript", "React", "TailwindCSS"],
@@ -6,3 +6,5 @@ const experience = [{
     projects: ["React", "TailwindCSS", "NextJS", "TypeScript", "NodeJS"],
 
 }]
+
+export const titlePrincipal = "Biblio"

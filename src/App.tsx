@@ -1,13 +1,21 @@
  
 import Experience from './components/Experience'
- 
+
+import {titlePrincipal} from './data/data'
+import {experiences} from "./data/data"
+
 
 function App() {
    
+  
 
   return (
     <> 
-        <Experience title="Bigben" description="I am a bigben"/>
+        <h1 className='text-3xl underline font-bold'>{titlePrincipal}</h1>
+        {experiences.map((experience) => {
+        return <Experience title={experience.title} description={experience.description}/>
+          
+})}
     </>
   )
 }
